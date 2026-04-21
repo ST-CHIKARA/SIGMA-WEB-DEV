@@ -1,0 +1,55 @@
+# 1. OS & System Junk
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.codex
+*:Zone.Identifier
+
+
+# 2. Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# 3. Security & Environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 4. Build & Deployment
+dist/
+build/
+.next/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+
+# 5. Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 6. Database & Local Storage
+.data/
+*.db
+*.sqlite
+dump.rdb
+
+# 7. VS Code & Editor Settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# 8. Media & Archives (Ignoring huge archives, but allowing lesson videos)
+*.mov
+*.zip
+*.tar
+*.gz
