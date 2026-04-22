@@ -13,3 +13,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 - 01:
     - [Basics of a website](01/index.html)
 
+- 02: 
+    - [Basic Web Structure, Styling & JS](02/)
+
