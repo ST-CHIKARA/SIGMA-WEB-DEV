@@ -21,3 +21,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 04:
     -[A simple HTML Bookmark website](04/bookmarkmanager.html)
+
+- 05:
+    -[Understanding of Tables and Lists](05/)
