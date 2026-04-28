@@ -20,7 +20,7 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
     - [Basic understanding of HTML structure](03/)
 
 - 04:
-    -[A simple HTML Bookmark website](04/bookmarkmanager.html)
+    - [A simple HTML Bookmark website](04/bookmarkmanager.html)
 
 - 05:
-    -[Understanding of Tables and Lists](05/)
+    - [Understanding of Tables and Lists](05/)
