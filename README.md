@@ -24,3 +24,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 05:
     - [Understanding of Tables and Lists](05/)
+
+- 06:
+    - [Core Web Vitals](06/cwvs-reading-link.txt)
