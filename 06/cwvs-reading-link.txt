@@ -1,0 +1,3 @@
+Read about core web vitals from these links 
+1. https://www.cloudflare.com/learning/performance/what-are-core-web-vitals/
+2. https://web.dev/explore/learn-core-web-vitals
