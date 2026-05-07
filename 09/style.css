@@ -1,0 +1,11 @@
+.red{   /* We use . to signify class */ 
+    color: pink; 
+}
+
+.bgyellow{
+    background-color: purple
+}
+
+/* #firstdiv{  # we use # to signify Id
+    background-color: black;
+} */
