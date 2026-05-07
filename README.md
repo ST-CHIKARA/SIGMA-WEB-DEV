@@ -36,3 +36,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 09:
     - [IDs and Classes](09/) 
+
+- 10:
+    - [Embedding Video,Audio and other media in HTML](10/)
