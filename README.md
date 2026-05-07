@@ -30,3 +30,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 07:
     - [Forms](07/index.html)
+
+- 08:
+    - [Inline and Block elements](08/)
