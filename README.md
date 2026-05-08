@@ -39,3 +39,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 10:
     - [Embedding Video,Audio and other media in HTML](10/)
+
+- 11:
+    - [Semantic Tags](11/)
