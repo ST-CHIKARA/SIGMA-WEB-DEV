@@ -42,3 +42,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 11:
     - [Semantic Tags](11/)
+
+- 12:
+    - [Basic exercise](12/)
