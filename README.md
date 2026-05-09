@@ -51,3 +51,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 14:
     - [A very basic CSS intro](14/)
+
+- 15:
+    - [Inline, Internal and External CSS](15/)
