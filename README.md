@@ -48,3 +48,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 13:
     - [Entities and various other tags](13/)
+
+- 14:
+    - [A very basic CSS intro](14/)
