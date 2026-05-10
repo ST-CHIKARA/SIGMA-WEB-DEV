@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .box{ /* Common property of both boxes*/
+            background-color: aqua;
+        }
+
+        /*When we visualize this box2 and see that the margin between box1 and box2 is still 25px when it should have been 25px of box1 + 25px of box2 = 50px space. What we see is that this dont happen and we only see a margin of 25px not 50px thats because of something called margin collapse which means if margins of 2 elements are overlapping only the max value of margin will be applied one time*/
+
+        .box1{
+            color: green;
+            padding: 10px; /*Padding is around the content which in this case is "I am a box"*/
+            margin: 25px; /*Margin is on the outer side of the element*/
+            border: 2px solid darkgreen;
+            height: 200px; /*If we write this without adding the box-sizing: border-box written below it would mean that this height is just for the content of the box*/
+            box-sizing: border-box; /*When we mention this, this essentially means the mentioned height of 200px is now of the content + padding + border and excluding the margin*/ /*Harry says this will be important when we will convert figma files to HTML and CSS format*/
+
+        }
+
+        .box2{
+            color: crimson;
+            padding: 10px; 
+            margin: 25px; 
+            border: 2px solid darkred;
+            height: 200px; 
+            box-sizing: border-box;
+
+        }
+    </style>
+
+    <!--All the CSS was inspected using the inspect dev tool in chrome and got to know how do we inspect the elements in style section as well as see the proper diagram visual of content + padding + border + margin in the computed section of inspected element-->
+
+</head>
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am another box</div>
+</body>
+</html>
