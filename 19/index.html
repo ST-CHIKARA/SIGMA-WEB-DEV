@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fonts, text and color properties</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins&display=swap');
+        h1{
+            font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform: uppercase; /*To make the whole word capitalize or should i say every character in the word in uppercase*/
+            text-decoration: underline;
+            text-decoration-color: blue; /*Useful while making navigation bars*/
+            text-align: center;
+        }
+
+        h2{
+            text-transform: capitalize; /*Capitalize first letters of the words*/
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+            text-decoration-style: dotted;
+        }
+
+        h3{
+            text-transform: lowercase;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-decoration-style: wavy;
+        }
+
+        p{
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/ /* This is called fallback fonts that means that the system tries to apply the main font that is Segoe UI in our case and if that is not available it tries others after that */
+            font-family: 'Baloo bhai 2', 'sans-serif';
+            font-size: 20px;
+            /* font-style: italic; */
+            /* font-weight:600; */
+            /* text-decoration: underline; */
+            line-height: 2;
+        }
+
+        .lorem{
+            border: 2px solid purple;
+            width: 70px;
+            word-break: break-all; /*Will make the words fit  inside the border that we made */
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <h2>about fonts</h2>
+        <h3>TESTING LOWERCASE, ITS SEEN IN LOWERCASE BUT IN THE CODE I WROTE IN UPPERCASE</h3>
+        <p>We are starting by learning about fonts</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quo dolorum non dolor praesentium omnis ipsum delectus rerum fugiat cupiditate. Soluta ipsa voluptatem suscipit necessitatibus reiciendis exercitationem eum eligendi accusamus, nesciunt voluptas earum quisquam, deleniti voluptatibus nihil explicabo unde magni. Ducimus deleniti veritatis neque fugit!</p>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo, quos unde vero explicabo debitis, voluptatum cum dolorem, ipsam aut perspiciatis animi perferendis?</p>
+        
+    </div>
+</body>
+</html>
