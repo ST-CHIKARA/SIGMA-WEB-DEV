@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+         /* what we did here is called a element selector */
+        /* div{
+            color: purple;
+            background-color: pink; */ /*Here background color is a property and the color pink is its value 
+        } */
+        
+        /* This is called a class selector */
+        .pink{
+            background-color: pink;
+        }
+        
+        /* This is called a id selector  */
+
+        #aqua{
+            background-color: aqua;
+        }
+
+        /* This is called a child selector  */
+        div > p{ /* when there is a para inside the div and is the direct child of it */
+            color: crimson ;
+            background-color: coral;
+        }
+
+        /* This is called a descendent selector  */
+        div  p{ /* when there is a para inside the div even if it isn't a direct child */
+            color: crimson ;
+            background-color: coral;
+        }
+
+        /* This is called a universal selector  */
+
+        /* * {
+            margin:0;
+            padding:0;
+        } */
+
+
+        /* This is called a pseudo selector  */
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: aqua;
+        }
+
+        a:hover{
+            background-color: aqua;
+        }
+
+        article:first-child{
+            background-color: chartreuse;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="pink">
+        I am under the 1st div :- The experiments using the element selector as well as the class selector were done on me
+    </div>
+
+    <div id="aqua">
+        I am the 2nd div :- The experiment using the id selector was done on me 
+        <p>and i am a para inside 2nd div so a child selector was used on me and this is only applicable if i am a direct child inside div.</p>
+    </div>
+
+    <div>
+        <article>
+            <p>I am inside another div and inside a article so i am not a direct child of div and i am using a descendent selector on me</p>
+        </article>
+    </div>
+
+    <a href="https://www.google.com">Google the shit out of things</a> <!--This is a anchor tag-->
+
+    <div>--------------------------</div>
+
+    <section class="three">
+        <article>I am the first child</article>
+        <article>I am the second child</article>
+    </section>
+
+   
+</body>
+</html>
