@@ -54,3 +54,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 15:
     - [Inline, Internal and External CSS](15/)
+
+- 16:
+    - [CSS Selectors](17/)
