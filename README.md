@@ -60,3 +60,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 18:
     - [CSS Box model](18/)
+
+- 19:
+    - [CSS Fonts, Text and color properties](19/)
