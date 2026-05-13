@@ -66,3 +66,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 20:
     - [Exercise 2](20/)
+
+- 21:
+    - [CSS Specificity](21/)
