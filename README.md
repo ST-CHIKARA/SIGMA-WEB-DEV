@@ -44,7 +44,7 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
     - [Semantic Tags](11/)
 
 - 12:
-    - [Basic exercise](12/)
+    - [Exercise 1](12/)
 
 - 13:
     - [Entities and various other tags](13/)
@@ -63,3 +63,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 19:
     - [CSS Fonts, Text and color properties](19/)
+
+- 20:
+    - [Exercise 2](20/)
