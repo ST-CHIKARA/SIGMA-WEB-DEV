@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity and Cascade</title>
+    <style>
+        h1{  /*Element selector*/
+            color: aqua;
+        }
+
+        .yellow{
+            color: yellow;
+        }
+
+        .cred{
+            color: red;
+        }
+
+        .cpurple{ /*Since this is at the lowest position in the common class selectors this will be applied as the css not the other ones according to the cascade algo*/
+            color: purple;
+        }
+
+        [data-x=a]{  /*Attribute selector*/
+            background-color: purple;
+        }
+
+        h2.co{ /*Although this is above the aqua, this css will be applied because its specificity has increased from 10 to 11 as we have added h2 which is a element carrying score of 1 and that makes 1 + 10 = 11*/
+            color: darkgreen;
+        }
+
+        .caqua{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="color: pink;" class="yellow, cred cpurple" data-x="a">CSS Specificity</h1> <!--Here the style inline css is of the utmost priority to getting applied as it will override all other css and we used attribute selector too just to showcase its application-->
+
+        <h2 class="co caqua">To check the additions of Specificity</h2>
+    </div>
+</body>
+</html>
