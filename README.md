@@ -69,3 +69,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 21:
     - [CSS Specificity](21/)
+
+- 22:
+    - [About various used units](22/)
