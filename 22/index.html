@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Various units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            font-size: 12px;
+        }
+
+
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            background-color: aquamarine;
+            /* width: 1520px;  */ /*This is a common unit called pixel denoted by px */
+            width: 80vw; /*here vw means viewport width that means the width should be equal to the viewport or the screen size you are seeing*/
+            height: 10vh; /*Viewport height*/
+            margin:auto; /*This will centre the div with equal margins on the side and this is only possible for the box elements and is inapplicable to inline elements*/
+            
+        }
+
+
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            background-color: aquamarine;
+            /* width: 1520px;  */ 
+            width: 80vw; 
+            /* height: 80vh;*/ /* Viewport height */
+            min-height: 80vh;
+            font-size: 18px;
+            margin:23px auto; /*Here we are using margin short end property to define vertical as well as horizontal margins*/
+        }
+
+        .container p {
+            /* font-size: 2em; */ /*This means 2 times the font size defined in the container above */
+            font-size: 2rem; /*This means 2 times the font size of the root which is the html font size defined in the internal css*/
+        }
+
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid green;
+            margin: 23px auto;
+            background-color: aqua;
+            color: green;
+            font-size: 22px;
+            width: 100vmin; /*Here the vmin means the smallest between the height and width of the screen i am working on and since i am working on a laptop that makes vmin = height of the monitor as in monitors height is smaller in comparison to the width. So here vmin = vh*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati veniam repellat esse vero culpa voluptatum optio sit molestiae id? At quos quas repellendus culpa libero voluptas quo aliquam distinctio harum neque natus similique, et aspernatur vitae. Quidem, hic deleniti. Omnis possimus recusandae cum veniam.</p>
+    </div>
+    <div class="mycont">This is another container</div>
+</body>
+</html>
