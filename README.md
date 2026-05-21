@@ -72,3 +72,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 22:
     - [About various used units](22/)
+
+- 23:
+    - [CSS Display Property](23/)
