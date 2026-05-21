@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .box{
+            border: 2px solid blue;
+            /*display: inline;*/  /*Here we converted a block element that takes a full width to an inline element by changing its display property*/
+            display: inline-block; /*When we just use inline, the upper margins of the box dont get calculated and set so to overcome that we use inline block*/
+            padding: 45px;
+            margin: 40px;
+            width: 344px;
+        }
+
+        .box1{
+            /* display: none; */ /*This deletes the box as well as the space it occupies*/
+            /* visibility: hidden; */ /*This also deletes the box but it doesnt remove the space */
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">I am a box</div>
+    <div class="box">also a nice box</div>
+    <span>why are dogs</span>
+    <span>so loyal?</span>
+</body>
+</html>
