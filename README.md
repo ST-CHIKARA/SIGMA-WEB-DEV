@@ -75,3 +75,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 23:
     - [CSS Display Property](23/)
+
+- 24:
+    - [CSS Shadow and Outline](24/)
