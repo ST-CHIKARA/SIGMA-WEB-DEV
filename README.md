@@ -78,3 +78,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 24:
     - [CSS Shadow and Outline](24/)
+
+- 25:
+    - [CSS Lists](25/)
