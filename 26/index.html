@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow property</title>
+    <style>
+        .box{
+            width: 15vw;
+            height: 19vh;
+            border: 2px solid black;
+            overflow: auto; /*If overflow it will automatically show the scroll bar otherwise remain same*/
+            /* white-space: nowrap; For horizontal scroll instead of vertical one  */
+            /* text-overflow: ellipsis; Just add ... in the last sentence to shorten it*/
+            overflow-x: hidden;
+            overflow-y: scroll;
+            /*To write the above 2 concisely we can write */
+            overflow: hidden auto; /*This is same as writing the x and y individually*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, velit? Veniam, nihil corporis. Hic odit sapiente laborum, facere nobis provident porro? Totam aut natus unde modi libero delectus ullam id, ex obcaecati, dolorem omnis enim quasi? Neque temporibus vel accusamus. Excepturi delectus cumque unde necessitatibus.</div>
+</body>
+</html>
