@@ -93,3 +93,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 30:
     - [CSS Variables](30/index.html)
+
+- 31:
+    - [CSS Media Queries](31/index.html)
