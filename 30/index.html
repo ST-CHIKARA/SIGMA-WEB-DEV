@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <style>
+
+        /*Will help us to implement kind of modularity with this root and use of var in the nav and container class css where from a single or few variables you can implement changes in multiple places*/
+
+        /*These both are global variables*/
+
+        :root{
+            --color: aqua;
+            --seccolor: rgb(241, 143, 159);
+            --defpad: 23px;
+        }
+
+        .nav{
+            background-color: var(--color);
+        }
+
+        .container{
+            background-color: var(--seccolor);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            list-style: none;
+            padding: var(--defpad);
+            border: 10px solid var(--seccolor);
+        }
+
+        ul li:first-child{
+            --color: darkgreen; /*This --color is a local variable here not the global one we designated above*/
+            background-color: var(--color,darkblue); /*here after referring to the local color variable we also added  fallback option by specifying that if --color var is not found fallback to ",darkblue" */
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Resources</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, culpa quis nam dignissimos officiis iure voluptate quam tempora, sit nostrum odio. Quia ipsa doloribus consequatur suscipit culpa eius asperiores molestiae dicta, consectetur numquam accusantium nobis debitis consequuntur. Fugiat repellat animi quos iure expedita delectus atque.
+    </div>
+</body>
+</html>
