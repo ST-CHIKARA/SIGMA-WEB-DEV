@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .box{
+            height: 433px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+
+
+         .parent{
+            padding: 43px;
+            margin: 34px;
+            border: 3px solid green;
+            /* position: absolute; */
+
+            /* Important exception:- Transform, filter or perspective properties can also make an element appear to be positioned relative to the parent*/
+            transform: translate(0);
+            /* filter: invert(0); */
+            /* perspective: 0em; */
+
+        }
+
+
+        /*currently boxes 1 & 2 are in static position as in there will be no effect on them if we try to add a left right top bottom position to them*/
+
+        .box1{
+            background-color: aqua;
+            /* position: sticky; */
+            /* top: 0px; */
+            /* height: 100px; */
+            /* width: 102%; */
+            /* margin: 0; */
+            /* padding: 0; */
+            position: absolute;
+            top: 0px;
+            left: 3px;
+        }
+
+
+        .box2{
+            background-color: bisque;
+            /* position: absolute; */
+            /*top: 0px;*/ /*Due to this box2 got above box1 because it got on top in relative to nearest positioned ancestor that in our case is the html tag on the top when we gave it top : 0px; it said what am i top in relation to and checked box 1 then body then html it didnt find any positional element or criteria but as html is the toppest starting of anything it said since html is my greatest ancestor ill be top relative to it */
+
+            /*But if i make the parent's position absolute then the top will be relative to the parent and i did that after this comment to see the changes*/
+        }
+
+        .box3{
+            background-color: blueviolet;
+            /*position: relative;*/ /*This makes the position of box3 relative means it is not rigid and static anymore it can be moved left or right or top or bottom*/
+            /* top: 36px; */
+            /* left: 40px; */
+        }
+
+
+        .box4{
+            background-color: brown;
+        }
+
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+        
+</body>
+</html>
