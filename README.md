@@ -44,47 +44,49 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
     - [Semantic Tags](11/)
 
 - 12:
-    - [Exercise 1](12/)
+    - [Exercise 1](12/index.html)
 
 - 13:
-    - [Entities and various other tags](13/)
+    - [Entities and various other tags](13/index.html)
 
 - 14:
-    - [A very basic CSS intro](14/)
+    - [A very basic CSS intro](14/index.html)
 
 - 15:
     - [Inline, Internal and External CSS](15/)
 
 - 17:
-    - [CSS Selectors](17/)
+    - [CSS Selectors](17/index.html)
 
 - 18:
-    - [CSS Box model](18/)
+    - [CSS Box model](18/index.html)
 
 - 19:
     - [CSS Fonts, Text and color properties](19/)
 
 - 20:
-    - [Exercise 2](20/)
+    - [Exercise 2](20/index.html)
 
 - 21:
-    - [CSS Specificity](21/)
+    - [CSS Specificity](21/index.html)
 
 - 22:
-    - [About various used units](22/)
+    - [About various used units](22/index.html)
 
 - 23:
-    - [CSS Display Property](23/)
+    - [CSS Display Property](23/index.html)
 
 - 24:
-    - [CSS Shadow and Outline](24/)
+    - [CSS Shadow and Outline](24/index.html)
 
 - 25:
-    - [CSS Lists](25/)
+    - [CSS Lists](25/index.html)
 
 - 26:
-    - [CSS Overflow](26/)
+    - [CSS Overflow](26/index.html)
 
 - 28:
-    - [CSS Position](28/)
+    - [CSS Position](28/index.html)
 
+- 29:
+    - [Exercise 3](29/index.html)
