@@ -90,3 +90,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 29:
     - [Exercise 3](29/index.html)
+
+- 30:
+    - [CSS Variables](30/index.html)
