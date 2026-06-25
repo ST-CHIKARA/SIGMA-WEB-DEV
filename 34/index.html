@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and clear</title>
+    <style>
+        img{
+            float: left; /*Will keep the img on the left side and content on the right*/
+        }
+
+        .cards{
+            border: 2px solid black;
+            display: flow-root; /*Will help in fitting all the elements within the designated container which in our case is cards*/
+        }
+
+        .card{
+            border: 2px solid red;
+        }
+
+        .card:nth-child(3){
+            background-color: aquamarine;
+            clear: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://www.navylookout.com/app/uploads/2025/12/FDI-Frances-light-frigate-1536x738.webp" alt="" width="250px">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis maxime incidunt amet quam, libero impedit earum voluptas quod eaque vero delectus alias unde!</p>
+        </div>
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste rerum aspernatur vero non ea natus maxime dolor ex vitae accusantium, nobis magnam id voluptas deleniti. Ex, asperiores. Adipisci quasi, assumenda blanditiis enim explicabo natus consectetur aliquam cumque consequuntur voluptatem vero sunt hic voluptatum earum alias dolor laborum impedit magni in libero id delectus modi nulla? Deserunt expedita accusamus molestiae, magni iusto reprehenderit praesentium iure labore nisi eos odio qui quia vitae laborum error aliquam laboriosam dolore est fuga? Praesentium, odit. Aliquid magni maiores dolorem fugiat atque, corporis dolore quidem distinctio error a placeat. Reiciendis nemo vitae possimus eveniet repellendus nobis voluptatibus eum quisquam ex rem sequi laborum pariatur nesciunt earum, illo atque quidem odit incidunt exercitationem quibusdam. Ex cum quam iusto illum! Optio minus asperiores, ea, quaerat sit rem suscipit maxime distinctio maiores nulla minima mollitia! Incidunt explicabo, illo vel error quia ducimus accusamus consequuntur aut temporibus excepturi cumque quis aliquam, similique ipsum ea quibusdam sit dolores quas quae cum commodi repellendus unde vero a. Accusamus eum, aspernatur dolores dignissimos quam eius, voluptatum doloribus pariatur facere tempora sequi, inventore molestiae! Cupiditate aut dolore, ratione explicabo expedita enim illo recusandae quam incidunt adipisci cum labore! Repellat ad illum doloremque? A dolorum earum commodi quae ex officiis consequuntur accusantium porro ullam? Perspiciatis, quas dignissimos? Esse tempore non voluptatum ipsam accusantium aliquam iure molestias optio laborum, eligendi numquam deserunt. Aliquam, similique assumenda facilis enim temporibus nam dignissimos quaerat pariatur vel sed error tenetur dolorum illum quisquam eveniet eum magni ipsa? Rerum quo adipisci natus itaque recusandae nesciunt eligendi officia unde atque aliquid odio corrupti modi debitis tempora quisquam cumque pariatur facilis laudantium, commodi molestiae accusamus sunt. Dignissimos, beatae nobis libero reiciendis dolor temporibus illo repellendus culpa autem magni totam, quia voluptates tenetur obcaecati dolorem nostrum odit harum voluptas ut atque assumenda excepturi. Laudantium impedit iure, corrupti vel harum iste ipsam praesentium saepe rerum veritatis mollitia at dolorum repudiandae voluptatem. Aliquid odit ipsa saepe deserunt quaerat consequuntur. Excepturi esse minima ipsa officia at neque molestias a!</p>
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
