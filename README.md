@@ -102,3 +102,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 34:
     - [FLoat and clear(Not Imp)](34/index.html)
+
+- 35:
+    - [Extra Info on CSS Selectors](35/index.html)
