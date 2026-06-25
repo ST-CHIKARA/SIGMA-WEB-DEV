@@ -99,3 +99,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 33:
     - [Exercise 4](33/index.html)
+
+- 34:
+    - [FLoat and clear(Not Imp)](34/index.html)
