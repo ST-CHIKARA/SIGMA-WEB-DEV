@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra info on selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: aquamarine;
+        } */
+
+        /* .box::first-line{
+            color: blue;
+        } */
+
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+
+        }
+
+        p,a,.box,[data-color = "primary"]{
+            padding-top: 45px;
+        } */
+
+        /*Will start counting from 1*/
+        .box:nth-child(even){
+            background-color: blueviolet;
+        }
+
+
+        /*Will color the element/child which is on 1st position counting from last*/
+        .box:nth-last-child(1){
+            background-color: brown;
+        }
+
+
+        /*Insertion of an element dynamically with the help of css and widely used*/
+        .boxes::before{
+            content: "konnichiwa";
+            color: pink;
+        }
+        /*And they are called pseudo elements not selectors*/
+        .boxes::after{
+            content: "Mata Ne";
+            color: crimson;
+        }
+
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+
+        .box::first-letter{
+            color: peru;
+            font-size: 32px;
+        }
+
+
+        input::placeholder{
+            color: purple;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am first box</div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+        <input type="text" placeholder="Type your age here">
+    </div>
+</body>
+</html>
