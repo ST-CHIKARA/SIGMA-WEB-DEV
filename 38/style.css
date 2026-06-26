@@ -1,0 +1,51 @@
+.container{
+    border: 2px solid red;
+    display: flex; /*By default the items inside a flex box are laid in the flex direction which is by default left to right (also called flex direction row) but can be changed. And this is also called main axis when flex direction is row */
+    height: 80vh;
+    /*justify-content: center; /*will do it based on the main axis*/
+    align-items: center;
+    /*flex-direction: column; /*vertical columns and here the items are laid over its own main axis which is (main axis column) and the side opposite to it now becomes its cross axis */
+    /*There are few terminologies more like main start and main end where main axis starts and where main axis ends and then there is cross start and cross end where cross axis start and cross axis end and with these there are similar concepts of main size and cross size which are again size that covers start till end*/
+    flex-wrap: wrap;
+    align-content: center; /*When we have more than one row we use align content and when we have just one row we use align items*/
+    /*We can also use align content start or align content end*/
+    /*in flex box we dont have justify item we just have justify content*/
+    gap: 30px; /*Other than this we can also define gaps b/w the rows and between the columns separately but here we just said make all gap b/w columns as well as rows 30px*/
+    /*And the syntax for defining both row and column gap in one line will be gap: 40px(row) 10px(columns)*/
+}
+
+.item{
+    height: 82px;
+    width: 82px;
+    background-color: violet;
+    /* margin: 4px; */
+    border: 2px solid black;
+    /* flex-grow: 1; */
+}
+
+
+/*These can be used to decide order of the items that you want to designate with your choice and need even when you have defined the order you can change that with this item property of css*/
+
+/*Default order is 0 and the rule is the lowest order will come first like if i have a item called 66 but i add order-1 class in its div then that will come first and vice versa*/
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+
+/* .item31{
+    flex-grow: 2;
+} */
+
+
+/*There is also a item property of flex box called flex shrink that when applied to a item can shrink irrespective of the other items when needed like when screen sizes are different*/
+
+/*Then there is another flex item property called align self when applied to a item can be positioned to a space/ place designated by us*/
