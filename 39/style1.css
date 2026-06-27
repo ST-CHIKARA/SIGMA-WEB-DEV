@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    display: grid;
+    /*We can define columns and rows in our grid by doing :- */
+    /* grid-template-columns: [pehla]120px [dusra] 100px;
+    grid-template-rows: 100px 100px 100px; */
+    grid-template-columns: 1fr 1fr 1fr; /*This means 3 (1fr 1fr 1fr) fractions of the available width and can be done in any fractions 1fr 2fr 1fr also or use repeat(4, 1fr) which means repeat 1fr 4 times*/ 
+    width: 80vw;
+    gap: 34px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /*And to just consolidate align items centre and justify content centre we can use place content centre*/
+}
+
+.item{
+    border: 2px solid red;
+    height: 55px;
+    /* width: 55px; */
+}
+
+/* .item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+   
+} */
+
+
+/*Wil overlap item4 on the item1*/
+/* .item-4{
+    grid-row: 1/2;
+    grid-column: 1/2;
+} */
