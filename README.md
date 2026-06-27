@@ -109,5 +109,8 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 - 37:
     - [Exercise 5](37/index.html)
 
-- 38
+- 38:
     - [CSS Flex box](38/)
+
+- 39:
+    - [CSS Grid](39/)
