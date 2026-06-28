@@ -121,3 +121,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 - 42:
     - [About CSS Transforms](42/index.html)
     - [Visual demo for transforms](42/Demo.html)
+
+- 44:
+    - [Exercise 7 (skipped for now)](44/)
