@@ -114,3 +114,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 39:
     - [CSS Grid](39/)
+
+- 41:
+    - [Exercise 6](41/)
