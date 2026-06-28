@@ -124,3 +124,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 44:
     - [Exercise 7 (skipped for now)](44/)
+
+- 45:
+    - [CSS Transition property](45/)
