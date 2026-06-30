@@ -1,0 +1,17 @@
+.container{
+    background-color: azure;
+    width: 466px;
+    height: 488px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcBufPQIHw_8cTFwsM75ZD7NU_6S1ZBLeaGsLp_kvdDRdcVC7WmnvZieS&s=10");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 466px;
+    height: 488px;
+    object-fit: cover; /*will cover the designated width and height without stretching anything but will cut the image to fit the container*/
+    object-fit: contain; /*will show the full image*/
+    /* object-position: bottom right; To specify which part of the image you want to show */
+    /* object-position: 10px 20px; object position can be used like this too */
+}
