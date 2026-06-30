@@ -1,0 +1,23 @@
+/* img{
+    filter: blur(3px);
+    filter: contrast(2);
+} */
+
+
+.img1{
+    /* filter: brightness(150%); */
+    filter: grayscale();
+}
+
+
+.img2{
+    /* filter: brightness(150%); */
+    filter: grayscale();
+}
+
+
+.img3{
+    /* filter: brightness(150%); */
+    /* filter: sepia(); */
+    filter: grayscale();
+}
