@@ -136,3 +136,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 49:
     - [CSS Object fit and Object cover](49/)
+
+- 50:
+    - [CSS Filters](50/)
