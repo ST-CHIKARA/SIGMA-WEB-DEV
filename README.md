@@ -130,3 +130,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 46:
     - [CSS Animations](46/)
+
+- 48:
+    - [Exercise 8](48/)
