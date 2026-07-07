@@ -139,3 +139,9 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 50:
     - [CSS Filters](50/)
+
+- 53:
+    - [Netflix clone (skipped for now)](53/)
+
+- 54:
+    - [Basics about JS + nodejs setup](54/)
