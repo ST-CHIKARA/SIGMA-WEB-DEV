@@ -154,3 +154,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 57:
     - [Loops in JS](57/index.js)
+
+- 58:
+    - [Functions in JS](58/index.js)
