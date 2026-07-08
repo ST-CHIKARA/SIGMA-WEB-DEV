@@ -145,3 +145,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 54:
     - [Basics about JS + nodejs setup](54/)
+
+- 55:
+    - [JS Variables](55/)
