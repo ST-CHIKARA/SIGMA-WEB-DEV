@@ -148,3 +148,7 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 55:
     - [JS Variables](55/)
+
+- 56:
+    - [JS Conditionals](56/index.js)
+
