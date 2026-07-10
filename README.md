@@ -157,3 +157,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 58:
     - [Functions in JS](58/index.js)
+
+- 59:
+    - [Exercise 9](59/index.html)
