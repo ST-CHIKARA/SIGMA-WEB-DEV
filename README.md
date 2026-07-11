@@ -160,3 +160,13 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 59:
     - [Exercise 9](59/index.html)
+
+- 60:
+    - [Strings in JS](60/index.js)
+
+- 62:
+    - [Exercise 10](62/index.html)
+
+- 63:
+    - [Arrays in JS](63/index.js)
+    
