@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box">
+            This is a box
+        </div>
+    </div>
+    <script>
+        document.title = "VTC"
+        console.log(document.title)
+        console.log(document.body)
+        document.body.style.backgroundColor = "gray"; // This will add a inline css in the body
+    </script>
+</body>
+</html>
+
+<!-- we are learning this so that in next lessons we have context on how to target the elements -->
+
+<!-- we you are inspecting a element it automatically becomes $0 as we can see everytime on a website and we can access that element and make changes to it with the help of accessing just the $0. Its a utility of the browser -->
+
+
+<!--
+                     [ Document ]
+                          │
+                   [ Root element ]
+                       <html>
+             ┌────────────┴────────────┐
+             │                         │
+        [ Element ]               [ Element ]
+          <head>                    <body>
+             │                 ┌───────┴───────┐
+        [ Element ]            │               │
+          <title>         [ Element ]     [ Element ]
+             │               <h1>             <p>
+          [ Text ]             │               │
+         "My Text"          [ Text ]        [ Text ]
+                          "My Header"   "My Paragraph"
+-->
