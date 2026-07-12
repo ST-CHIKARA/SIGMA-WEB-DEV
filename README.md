@@ -170,3 +170,11 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 - 63:
     - [Arrays in JS](63/index.js)
     
+- 65:
+    - [Exercise 11](65/index.js)
+
+- 66:
+    - [Brief intro to Document Object Model(DOM)](66/index.html)
+
+- 67:
+    - [More info on DOM](67/)
