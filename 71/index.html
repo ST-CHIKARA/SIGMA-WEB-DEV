@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion and removing elements using js</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="display: flex;"  data-createdby="chikara" data-conceptby = "victor">We are boxes</div>
+        <div class="box">We are boxes</div>
+        <div class="box">We are boxes</div>
+        <script>
+            // let div = document.createElement("div");
+            // div.innerHTML = "I have been inserted <b>by chikara </b> "
+            // div.setAttribute("class", "created");
+            // document.querySelector(".container").append(div) // will be seen at the end . This code line is used when you got some data to add the data in  the dom without reloading the page 
+
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentHTML("afterend", "<b> I am underwater </b>")
+        </script>
+    </div>
+</body>
+</html>
