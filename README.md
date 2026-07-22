@@ -178,3 +178,12 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 67:
     - [More info on DOM](67/)
+
+- 68:
+    - [Selecting elements using class and id's with the help of JS](68/)
+
+- 70:
+    - [Exercise 12](70/)
+
+- 71:
+    - [Inserting and removing elements using JS](71/)
