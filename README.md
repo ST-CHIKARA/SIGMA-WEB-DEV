@@ -187,3 +187,6 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 71:
     - [Inserting and removing elements using JS](71/)
+
+- 73:
+    - [Exercise 13](73/)
