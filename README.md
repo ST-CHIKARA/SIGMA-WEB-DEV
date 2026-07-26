@@ -190,3 +190,9 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 73:
     - [Exercise 13](73/)
+
+- 74:
+    - [Events](74/)
+
+- 75:
+    - [Callbacks & Promises](75/)
