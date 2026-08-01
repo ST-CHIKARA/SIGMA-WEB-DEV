@@ -202,3 +202,12 @@ This is the playlist i am following [Sigma Web Development Course by CodeWithHar
 
 - 78:
     - [Exercise 14](78/)
+
+- 79:
+    - [try catch and error handling](79/)
+
+- 80:
+    - [Classes and objects](80/)
+
+- 82:
+    - [IIFE, Destructuring, Shard operator, Hoisting](82/)
